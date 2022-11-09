@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.logotipo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.containerMenu {
+    background-color: #1B1C1C;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav { 
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a { /*esta parte é a visual do menu*/
+    color: #fff;
+    text-decoration: none;
+}
+
+nav :hover { /*referente ao link quando o usuário passar o mouse no menu */
+    color: #c78c19;
+    text-decoration: none;
+}
+
+
+
+/* PESQUISA */
+
+.search-container {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+
+}
+
+#search-bar:focus {
+    border: 1px solid #000000;
+    transition: 0.35s ease;
+    color: #000000;
+}
+
+#search-bar::-webkit-input-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+#search-bar::-moz-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+#search-bar:-ms-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+.search-icon {
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+}
+
+/* FIM DA PESQUISA */
