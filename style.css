@@ -26,8 +26,8 @@ body {
 
 nav { 
     position: absolute;
-    top: 40%;
-    right: 0;
+    top: 60%;
+    right: 21.5rem;
 }
 
 nav li {
@@ -52,11 +52,11 @@ nav :hover { /*referente ao link quando o usuário passar o mouse no menu */
 .search-container {
     width: 250px;
     display: block;
-    margin: 0 auto;
+    margin-left: 80rem;
 }
 
 input#search-bar {
-    margin: 0 auto;
+    margin: 30px auto;
     width: 100%;
     height: 45px;
     padding: 0 20px;
@@ -92,7 +92,7 @@ input#search-bar {
     float: right;
     width: 75px;
     height: 75px;
-    top: -62px;
+    top: -89px;
     right: -45px;
 }
 
